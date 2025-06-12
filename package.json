@@ -4,7 +4,8 @@
   "description": "portfolio for athmatias",
   "main": "index.html",
   "scripts": {
-    "start": "serve ."
+    "start": "serve .",
+    "build": "echo 'Build does nothing'"
   },
   "repository": {
     "type": "git",
