@@ -1,0 +1,13 @@
+html {
+  background: #f5f5f5;
+
+  nav {
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  }
+
+  .reveal {
+    height: 94%;
+  }
+}
