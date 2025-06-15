@@ -7,19 +7,42 @@
     <link rel="icon" type="image/ico" href="favicon.ico" />
     <link rel="stylesheet" href="style.css" />
     <title>Athila Matias</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
   </head>
 
   <body>
-    <h2>Portfolio</h2>
-    <p>
-      Welcome to my Portfolio page. This is a simple page to show a little about
-      me and my work.
-    </p>
-    <p></p>
-    <ul>
-      <li><a href="/about">About Me</a></li>
-      <li><a href="/consumer">Preview Consumer App (Vue)</a></li>
-      <li><a href="/admin">Preview Admin App (React)</a></li>
-    </ul>
+    <header class="app-header">
+      <h3>Athila Matias' Portfolio</h3>
+    </header>
+    <div class="app-presentation">
+      <nav
+        class="app-presentation-nav animate__animated animate__zoomInDown animate__delay-1s"
+      >
+        <a href="/about">About Me</a>
+        <a href="/consumer">Consumer App (Vue)</a>
+        <a href="/admin">Admin App (React)</a>
+        <a href="https://github.com/atm-portfolio/admin" target="_blank"
+          >Admin Client Repo</a
+        >
+        <a href="https://github.com/atm-portfolio/consumer" target="_blank"
+          >Consumer Client Repo</a
+        >
+        <a href="https://github.com/atm-portfolio/node" target="_blank"
+          >Server Repo</a
+        >
+      </nav>
+
+      <p class="app-presentation-info animate__animated animate__backInLeft">
+        Welcome to my portfolio, here you can find some information about me and
+        some of my projects.
+      </p>
+    </div>
   </body>
 </html>
